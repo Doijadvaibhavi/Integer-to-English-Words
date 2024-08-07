@@ -27,7 +27,7 @@ Constraints:
 The goal is to convert an integer into its English words representation. The solution breaks down the number into manageable parts (thousands, millions, billions) and converts each part into words using predefined mappings for single digits, teens, and tens. By systematically processing each segment, we can build the full English representation of the number.
 
 * Approach
-* 
+  
 Base Case: If the number is 0, return "Zero".
 Segmenting the Number: The number is divided into groups of three digits (thousands, millions, billions) using integer division and modulus operations.
 Mapping Numbers to Words: For each group:
